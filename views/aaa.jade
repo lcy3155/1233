@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= ti2
+  h1= ab
+  p Welcome to #{ab}
+  a(href='/aaa') aaaaaaaaaaaaaaaaaaa
+  -for(var i in ab){
+     p #{ab[i]}
+  -}
+  -var b=bcd
+  -for(var i in b){
+    p #{b[i]}
+  -}
